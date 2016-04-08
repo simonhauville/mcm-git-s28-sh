@@ -1,0 +1,3 @@
+sh_back_bohomepage:
+    path:     /back
+    defaults: { _controller: SHBackBundle:Default:index }

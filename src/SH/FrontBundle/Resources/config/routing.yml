@@ -1,0 +1,15 @@
+sh_front_home:
+    path:     /
+    defaults: { _controller: SHFrontBundle:Static:homepage }
+
+sh_front_homefront:
+    path:     /front
+    defaults: { _controller: SHFrontBundle:Advert:index }
+
+sh_front_view:
+    path:     /front/advert/{id}
+    defaults: { _controller: SHFrontBundle:Advert:view }
+
+sh_front_add:
+    path:     /front/add
+    defaults: { _controller: SHFrontBundle:Advert:add }

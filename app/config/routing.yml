@@ -1,0 +1,8 @@
+sh_back:
+    resource: "@SHBackBundle/Resources/config/routing.yml"
+    prefix:   /
+
+sh_front:
+    resource: "@SHFrontBundle/Resources/config/routing.yml"
+    prefix:   /
+

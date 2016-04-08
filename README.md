@@ -1,2 +1,4 @@
-# mcm-git-s28-sh
-s2.8 - MCM by Simon Hauville
+HC-v2-s2_8
+==========
+
+A Symfony project created on March 10, 2016, 5:38 pm.

@@ -1,0 +1,5 @@
+{% extends "::default/index.html.twig" %}
+{% block title %}Mon Carnet Maison{% endblock %}
+    {% block body %}    
+        {% include "SHFrontBundle:Includes:Adverts/" ~ id ~ ".html.twig" %}
+    {% endblock %}
